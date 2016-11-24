@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #wrap {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  font-family: sans-serif;
+  color: gray;
+}
+
+#wrap {
+  display: flex;
+}
+
+#content {
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#content > * {
+  margin: 8px;
+}
+
+#image {
+  width: 128px;
+  height: 128px;
+}
+
+h2 {
+  font-weight: normal;
+}
